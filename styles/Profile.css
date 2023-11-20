@@ -1,0 +1,65 @@
+/* Profile Section  */
+
+.profile-section {
+  font-family: "Luckiest Guy", cursive, "Montserrat", sans-serif;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.profile-section_heading {
+  padding: 5px 15px;
+  text-align: center;
+  color: #6a5c6b;
+}
+
+.profile-section_pics {
+  border-top: 10px solid #d1ced2;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.profile-section_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: -4px;
+}
+.profile img {
+  width: 250px;
+}
+.profile-name {
+  color: #ff7300;
+  font-size: 1.3rem;
+  overflow: hidden;
+}
+.twitter-ac {
+  font-family: sans-serif;
+}
+
+/* media query  */
+
+@media screen and (max-width: 300px) {
+  .profile-section {
+    padding: 0;
+  }
+  .profile-section_heading {
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+  }
+  .profile-section_pics {
+    margin: auto;
+    text-align: center;
+  }
+  .profile img {
+    width: 242px;
+  }
+}

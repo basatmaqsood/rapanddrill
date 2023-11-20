@@ -1,0 +1,87 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    /* background-image: url(../images/logo.svg);
+    background-repeat: repeat;
+    background-size: 8rem; */
+
+}
+.nav-container{
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15rem;
+}
+
+.nav-icon{
+    color: rgba(126,112,125,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.nav-icon img{
+    height: 3rem;
+}
+.nav-list{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.nav-list i{
+    font-size: 1.3rem;
+    color: darkorange;
+}
+.nav-item{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item a{
+    color: darkorange;
+    text-decoration: none;
+}
+
+.toggle{
+    display: none;
+    z-index: 2;
+}
+
+.nav-list-mobile{
+    padding-top: 0.5rem;
+    display: block;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 10rem;
+}
+@media screen and (max-width:576px) {
+    .toggle{
+        display: block;
+    }
+    .nav-item i{
+        display: block;
+    }
+    .nav-list{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .nav-container{
+        gap: 2rem;
+    }
+    .nav-item i{
+        display: none;
+    }
+}

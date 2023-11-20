@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url(./navbar.css);
+@import url(./hero.css);
+@import url(./contact.css);
+@import url(./footer.css);
+@import url(./Profile.css);
+@import url(./playlist.css);
+@import url(./monavis.css);
+
+
+
+body {
+  font-family: "Luckiest Guy", cursive;
+  margin: 0;
+  padding: 0;
+  color: #6A5C6B;
+  box-sizing: border-box;
+  background-image:linear-gradient(rgba(255,255,255,0.98),rgba(255,255,255,0.98)), url(../images/logo.svg);
+  background-repeat: repeat;
+  background-size: 6rem;
+  
+}
+section {
+  max-width: 1100px;
+  margin: auto;
+}
+.bottom-line{
+  display: block;
+  height: 8px;
+  width: 100%;
+  background-color:rgba(126,112,125,255);
+}
+button{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}

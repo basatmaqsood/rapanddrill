@@ -1,0 +1,67 @@
+/* playlist */
+
+.playlist-section {
+  font-family: "Luckiest Guy", cursive, "Montserrat", sans-serif;
+  padding: 0px 20px;
+}
+.playlist-section_heading {
+  padding: 10px 15px;
+  text-align: center;
+  color: #6a5c6b;
+}
+
+.playlist-section_pics {
+  border-top: 10px solid #d1ced2;
+  padding: 10px;
+  margin: auto;
+
+}
+
+.playlist-section_info {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px 15px;
+}
+.playlist {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* gap: -10px; */
+  width: 300px;
+  margin: 0 10px;
+}
+
+.playlist h4 {
+  color: #ff7300;
+  font-size: 1.3rem;
+}
+.playlist p {
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.playlist img {
+  height: 24px;
+}
+.playlist-img {
+  background-color: #d1ced2;
+  border-radius: 50%;
+  border: 2px solid #9d959e;
+  padding: 20px;
+}
+
+@media screen and (max-width: 300px) {
+  .playlist-section {
+    padding: 0;
+  }
+  .playlist-section_heading {
+    padding: 0;
+  }
+  .playlist-section_pics {
+    border-top: 10px solid #d1ced2;
+    padding: 10px;
+    
+}
+}
